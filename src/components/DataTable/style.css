@@ -1,0 +1,74 @@
+ul{
+    list-style-type: none;
+}
+
+.DataTable{
+    display: grid;
+    width: 65vmax;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 8px;
+    margin: 32px;
+    border: solid 4px black;
+    border-radius: 20px;
+}
+
+.centeredText{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.DataTable > .image{
+    grid-column: 1/2;
+    grid-row: 1/4;
+    margin: 0.5vmax;
+    height: 40vh;
+}
+
+.DataTable > .title{
+    grid-column: 2/4;
+    grid-row: 1/2;
+    font-size: 4em;
+    margin: 1vmax;
+}
+
+.DataTable > .price{
+    grid-column: 2/3;
+    grid-row: 3/4;
+    font-size: 1em;
+    margin: 1vmax;
+}
+
+.Button{
+    grid-column: 3/4;
+    grid-row: 3/4;
+    background-color: white;
+    border: solid 4px black;
+    border-radius: 10px;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+}
+
+.DataTable > .status{
+    grid-column: 2/4;
+    font-size: 1.5rem;
+    margin: 0.5vmax;
+}
+
+.DataTable > .description{
+    grid-column: 1/5;
+    grid-row: 4/5;
+    font-size: 3vh;
+    margin: 0.5vmax;
+}
+
+.DataTable > .recomendation{
+    grid-column: 1/5;
+    grid-row: 5/6;
+    font-size: 4vh;
+    margin: 0,5vmax;
+}
