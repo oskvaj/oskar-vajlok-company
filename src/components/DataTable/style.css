@@ -4,7 +4,7 @@ ul{
 
 .DataTable{
     display: grid;
-    width: 65vmax;
+    width: 80vmax;
     grid-template-columns: 1fr 1fr 1fr;
     padding: 8px;
     margin: 32px;
@@ -37,11 +37,17 @@ ul{
     grid-row: 3/4;
     font-size: 1em;
     margin: 1vmax;
+    place-self: center;
+}
+
+.ButtonPosition{
+
+    grid-column: 3/4;
+    grid-row: 3/4;
+    margin: 1vmax;
 }
 
 .Button{
-    grid-column: 3/4;
-    grid-row: 3/4;
     background-color: white;
     border: solid 4px black;
     border-radius: 10px;

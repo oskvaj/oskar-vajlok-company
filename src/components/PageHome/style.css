@@ -1,0 +1,12 @@
+.PageHome {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.PageHome .slider {
+  padding: 16px;
+  margin-top: 2vh;
+  margin-bottom: 32px;
+  border: none;
+}
