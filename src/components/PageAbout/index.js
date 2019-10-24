@@ -23,7 +23,7 @@ function PageAbout() {
             </li>
             <li>
               This website is created by a nerd with too much time on his hands and here i write my opinion of anime of seasons past as well as
-              confirmed uppcoming animes that i have read either the manga, lightnovel or the webnovel of and say how good i think that they are going to be.
+              confirmed upcoming animes that i have read either the manga, lightnovel or the webnovel of and say how good i think that they are going to be.
             </li>
           </ul>
         </div>
