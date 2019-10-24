@@ -17,7 +17,6 @@ function PageHome() {
         onChange={
           (e) => setSeason(e.target.value)
         }>
-          <p>Slider är här under så att du kan ändra vad som finns på sidan</p>
         {parsedData().map((item, i) => {
           return <option value={i}>{item.name}</option>
         })}
