@@ -13,7 +13,7 @@ function DataTable(props) {
             <ul>
                 {parsedData()[props.season].items.map((item) => {
                     return <li className="DataTable">
-                        <img className="image" src={item.image} alt={"bild på " + item.name}/>
+                        <img className="image" src={item.image} alt={"image of " + item.name}/>
                         <h3 className="title">{item.name}</h3>
                         {item.price && <p className="price">price: {item.price}</p>}
                         {item.link && <a className="ButtonPosition" href={item.link} target="_blank" rel="noopener noreferrer"><button className="Button">Take me to the store</button></a>}
